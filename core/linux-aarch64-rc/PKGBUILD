@@ -5,14 +5,14 @@
 buildarch=8
 
 _rcver=7.1
-_rcrel=1
+_rcrel=2
 
 pkgbase=linux-aarch64-rc
 _srcname=linux-${_rcver}-rc${_rcrel}
 _kernelname=${pkgbase#linux}
 _desc="AArch64 multi-platform (release candidate)"
 pkgver=${_rcver}.rc${_rcrel}
-pkgrel=2
+pkgrel=1
 arch=('aarch64')
 url="http://www.kernel.org/"
 license=('GPL-2.0-only')
@@ -27,7 +27,7 @@ source=("https://git.kernel.org/torvalds/t/${_srcname}.tar.gz"
         'kernel.keyblock'
         'kernel_data_key.vbprivk'
         'linux.preset')
-md5sums=('4b751d045b70fd1c3d21f29d8a8deaae'
+md5sums=('c927097f62b7e69f8496b03467ee12b2'
          '14112d29b9611b73ab016bf2fc9f886d'
          '0c66f44d524a153e3942336e3c111f37'
          'd144798da9e18e2fb82f82bbe0005064'

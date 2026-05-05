@@ -22,9 +22,9 @@ pkgname=(
 # set this to anything to build with clang
 # recommend manually setting -DUSE_LTO=OFF to -DUSE_LTO=$(nproc) in build()
 _clangbuild=
-_gitname=gs-gbm_master-rpios_master
+_gitname=gs-rpios_master
 
-pkgver=22.x.71070.03c18673a1
+pkgver=22.x.71083.87cd8811dd
 pkgrel=1
 arch=('aarch64' 'armv7h')
 url="https://github.com/graysky2/xbmc/tree/$_gitname"

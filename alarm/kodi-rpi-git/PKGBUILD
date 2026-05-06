@@ -72,7 +72,7 @@ backup=(boot/kodi.config.txt etc/conf.d/kodi-standalone)
 noextract=(
   "libdvdcss-$_libdvdcss_version.tar.gz"
   "libdvdnav-$_libdvdnav_version.tar.gz"
-  "libdvdread-$_libdvdread_version.tar.gz"
+  "libdvdread-$_libdvdread_version.tar.bz2"
   "ffmpeg-$_ffmpeg_version.tar.xz"
   "crossguid-$_crossguid_version.tar.gz"
   "fstrcmp-$_fstrcmp_version.tar.gz"

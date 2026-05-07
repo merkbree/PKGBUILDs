@@ -1,4 +1,0 @@
-[intellij-idea-community-edition]
-source = "regex"
-url = "https://www.jetbrains.com/updates/updates.xml"
-regex = 'name="IntelliJ IDEA RELEASE" .*status="release".*\n.*version="([^")]+)"'
